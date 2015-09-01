@@ -3,7 +3,7 @@
     > Author: liuwei
     > Mail: 271551048@qq.com 
     > Created Time: 2015年09月01日 星期二 19时51分28秒
-	> 二进制转十进制
+    > 二进制转十进制
  ************************************************************************/
 
 #include<iostream>
@@ -41,7 +41,7 @@ void Push(Stack *s, char c)
 }
 
 //出栈,出来的元素保存在c中
-void Pop(Stack *s, char c)
+void Pop(Stack *s, char &c)
 {
 	if(s->top == s->base)  //空栈
 	{
